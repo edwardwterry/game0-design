@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- NOTE: the string 'TODO' appears everywhere you need to fill in information. -->
+<html>
+<head>
+<title>Asteroid Wrangling</title>
+<!-- NOTE: this CSS sets up the ".figure" class to center images, and instructs images in ".figure"s to have space around them and to render crisp pixel edges when scaled [e.g. for retina displays]. -->
+<style>
+.figure {
+	text-align:center;
+}
+.figure > img {
+	margin: 0px 20px;
+	image-rendering: pixelated;
+}
+</style>
+</head>
+<body>
+<h1>Asteroid Wrangling</h1>
+<p>Spacecraft of the future will be able to extract their fuel from asteroids, without needing to carry it all the way from earth. Are you ready to begin training?</p>
+<!-- the <div> wrapping this image centers it on the page. -->
+<!-- TODO: drawing showing the main view of the game during play -->
+<div class="figure">
+<img src="game.png" />
+</div>
+<p>You are commanding a satellite on a solar system exploration mission in which you are responsible for its safety (avoiding space junk) and its endurance (filling it up with fuel). The status bar on the left shows your fuel level, which you need to fill to 100%.
+</p>
+
+<h2>Gameplay</h2>
+<p>The game begins with a satellite in orbit. The only way to restore its fuel reserves is to capture asteroids, which you can do by firing its onboard thrusters, which are activated by the arrow keys. Use the thrusters sparingly, however, as they use the very fuel you are trying to fill up. Newton's laws reign supreme up here in the vacuum of space, so pay attention to balancing out your control inputs in order to remain stable. To replenish your fuel, fly towards the asteroid and close your gripper around it using the spacebar. 
+<div class="figure">
+<img src="gripper.png" />
+</div>
+
+It's a crowded place up there, and you'll need to dodge an ever-growing quantity of space junk too, noted in the left-to-right transition in the figure below. The game ends with a win if you reach 100% fuel but a loss if you collide with the space junk.</p>
+<!-- TODO: illustrate your descriptions with more drawings -->
+<div class="figure">
+<img src="early-late.png" />
+</div>
+
+
+<h2>Assets</h2>
+<p>TODO: Provide a link to any preliminary 3D models, sounds, or <a href="https://github.com/ixchow/amoeba-escape/blob/master/tiles.png">textures</a> for the game. Make sure to only link to assets with appropriate licenses.</p>
+I created a short ambient audio clip in Ableton which can play in a loop in the background to enhance the feeling of desolation in space.
+
+Asteroid texture: https://www.filterforge.com/filters/13302.html
+
+
+</body>
+</html>
